@@ -1,0 +1,57 @@
+@import "variables"
++mobile
+  #main
+    min-width: 17em
+    padding: 2.5em 1.5em 1.5em
++desktop
+  #main
+    min-width: 27em
+    padding: 4.5em 3em 3em
+
+#main
+  background: #ffffff none repeat scroll 0 0
+  border-radius: 4px
+  cursor: default
+  max-width: 100%
+  opacity: 0.97
+  position: relative
+  text-align: center
+  transform: rotateX(0deg)
+  transform-origin: 50% 50% 0
+  transition: opacity 1s ease 0s, transform 1s ease 0s
+
+  .avatar
+    display: block
+    margin-bottom: 1.5em
+    position: relative
+
+    &:before
+      background: #c8cccf none repeat scroll 0 0
+      content: ""
+      display: block
+      height: 1px
+      left: -1.5em
+      position: absolute
+      top: 50%
+      width: calc(100% + 3em)
+      z-index: -1
+    img
+      border-radius: 100%
+      box-shadow: 0 0 0 1.5em #ffffff
+      display: block
+      margin: 0 auto
+
+.is-cover-image
+  background-attachment: fixed
+  background-color: #ffffff
+  background-image: url("/assets/images/background.jpg")
+  background-position: top center
+  background-repeat: no-repeat
+  background-size: cover
+  height: 100%
+
+.content
+  .icon-links
+    a.icon
+      color: #362C5B
+      border-bottom: none
