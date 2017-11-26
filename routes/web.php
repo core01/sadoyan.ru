@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
+
+Route::middleware('locale')->get('/', function () {
+    return view('main');
 });
