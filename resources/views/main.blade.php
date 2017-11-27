@@ -6,7 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sadoyan Roman</title>
-    <link rel="stylesheet" href="/assets/css/app.css?ver=2" type="text/css">
+    <link rel="shortcut icon" href="{{asset('assets/images/favicon.png')}}" type="image/png">
+    <link rel="stylesheet" href="{{asset('assets/css/app.css')}}" type="text/css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
           integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
@@ -16,7 +17,7 @@
         <div class="container">
             <div class="navbar-brand">
                 <a class="navbar-item" href="/">
-                    <img src="/assets/images/logo.png" alt="">
+                    <img src="{{asset('assets/images/logo.png')}}" alt="">
                 </a>
             </div>
             <div class="navbar-end">
@@ -43,7 +44,7 @@
                 <div class="box">
                     <div class="columns">
                         <div class="column is-4 has-text-centered">
-                            <img src="/assets/images/avatar.jpeg" class="avatar">
+                            <img src="{{asset('assets/images/avatar.jpeg')}}" class="avatar">
                         </div>
                         <div class="column is-8">
                             <p><b>@lang('fields.name'):</b> @lang('profile.name')</p>
@@ -59,7 +60,7 @@
                 </span>
                             <span>GitHub</span>
                         </a>
-                        <a class="button is-info"  href="https://twitter.com/absoluteaffect" target="_blank">
+                        <a class="button is-info" href="https://twitter.com/absoluteaffect" target="_blank">
                 <span class="icon">
                   <i class="fa fa-twitter"></i>
                 </span>
@@ -83,13 +84,15 @@
                         <p><b>@lang('profile.firms.freelance.name'):</b> @lang('profile.firms.freelance.years')</p>
                         <hr>
                         <div class="buttons is-centered">
-                            <a class="button is-link" href="https://www.linkedin.com/in/roman-sadoyan-b0b9b1114/" target="_blank">
+                            <a class="button is-link" href="https://www.linkedin.com/in/roman-sadoyan-b0b9b1114/"
+                               target="_blank">
                                 <span class="icon">
                                   <i class="fa fa-linkedin-square"></i>
                                 </span>
                                 <span>LinkedIn</span>
                             </a>
-                            <a class="button is-danger" href="https://hh.ru/resume/76239c53ff01d952250039ed1f79524d6f6178" target="_blank">
+                            <a class="button is-danger"
+                               href="https://hh.ru/resume/76239c53ff01d952250039ed1f79524d6f6178" target="_blank">
                                 <span class="icon">
                                   <i class="fa fa-briefcase"></i>
                                 </span>
