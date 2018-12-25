@@ -2,7 +2,7 @@
 return [
     'name' => 'Sadoyan Roman',
     'location' => 'Saint-Petersburg, Russia',
-    'title' => 'Web-Developer with DevOps Experience',
+    'title' => 'Full-stack developer with DevOps Experience',
     'about' => [
         'In web development since 2011',
         'Have Master degree of Computing Systems and Networks (ITMO University 2014-2016)',

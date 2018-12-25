@@ -48,7 +48,7 @@
                         </div>
                         <div class="column is-8">
                             <p><b>@lang('fields.name'):</b> @lang('profile.name')</p>
-                            <p><b>@lang('fields.age'):</b> 25</p>
+                            <p><b>@lang('fields.age'):</b> {{ \Illuminate\Support\Carbon::createFromDate(1992, 10, 21)->age }} </p>
                             <p><b>@lang('fields.location'):</b> @lang('profile.location')</p>
                         </div>
                     </div>
@@ -84,13 +84,6 @@
                         <p><b>@lang('profile.firms.freelance.name'):</b> @lang('profile.firms.freelance.years')</p>
                         <hr>
                         <div class="buttons is-centered">
-                            <a class="button is-link" href="https://www.linkedin.com/in/roman-sadoyan-b0b9b1114/"
-                               target="_blank">
-                                <span class="icon">
-                                  <i class="fa fa-linkedin-square"></i>
-                                </span>
-                                <span>LinkedIn</span>
-                            </a>
                             <a class="button is-danger"
                                href="https://hh.ru/resume/76239c53ff01d952250039ed1f79524d6f6178" target="_blank">
                                 <span class="icon">
@@ -119,13 +112,12 @@
                                 <div class="column">
                                     <b>@lang('fields.webdev'):</b>
                                     <ul>
-                                        <li>PHP 5.6+ (Laravel, MODX, Yii2)</li>
-                                        <li>MySQL/PostgreSQL/SQLite</li>
-                                        <li>JavaScript (VanillaJS, Vue.js 2, jQuery)</li>
-                                        <li>HTML / XML</li>
-                                        <li>CSS (Bootstrap, Uikit, Bulma and others)</li>
+                                        <li><b>PHP</b> (Laravel, MODX, Yii2)</li>
+                                        <li><b>NodeJS</b> (Express / Nuxt)</li>
+                                        <li>MySQL/PgSQL/SQLite</li>
+                                        <li>HTML/XML/CSS/JS (<b>Vue</b>)</li>
                                         <li>Git</li>
-                                        <li>Socials APIs (Twitter, Slack, Vk, etc.)</li>
+                                        <li>Socials APIs (Twitter, Slack, VK, Telegram, etc.)</li>
                                     </ul>
                                 </div>
                                 <div class="column">
@@ -135,6 +127,7 @@
                                         <li>Docker</li>
                                         <li>Bash</li>
                                         <li>Memcached</li>
+                                        <li>Sphinx/Elasticsearch</li>
                                         <li>OpenVPN</li>
                                     </ul>
                                 </div>
