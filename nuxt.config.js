@@ -1,4 +1,4 @@
-const pkg = require('./package')
+const postCSSConfig = require('./postcss.config.js')
 
 module.exports = {
   mode: 'universal',
@@ -7,13 +7,25 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: 'Sadoyan Roman',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Roman Sadoyan - Web-developer from Saint-Petersburg'
+      }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      {
+        rel: 'stylesheet',
+        href: 'https://use.fontawesome.com/releases/v5.6.3/css/all.css',
+        integrity:
+          'sha384-UHRtZLI,+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/',
+        crossorigin: 'anonymous'
+      }
+    ]
   },
 
   /*
@@ -24,7 +36,12 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: ['~/assets/css/tailwind.css'],
+  css: [
+    {
+      src: '~assets/css/tailwind.css',
+      lang: 'postcss'
+    }
+  ],
 
   /*
   ** Plugins to load before mounting the App
@@ -36,7 +53,7 @@ module.exports = {
   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios'
+    // '@nuxtjs/axios'
   ],
   /*
   ** Axios module configuration
@@ -49,6 +66,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    postcss: postCSSConfig.plugins,
     /*
     ** You can extend webpack config here
     */
