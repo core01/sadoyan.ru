@@ -1,14 +1,14 @@
 <template>
   <header class="p-4 flex items-center justify-between">
     <h1>
-      <a class="font-mono no-underline py-2 text-base text-black" href="/">
+      <a class="font-mono no-underline py-2 text-base text-red-dark" href="/">
         Sadoyan Roman
       </a>
     </h1>
     <ul class="flex items-center list-reset text-xl">
       <li class="mr-6">
         <a
-          class="text-black"
+          class="text-red-dark"
           href="https://twitter.com/absoluteaffect"
           target="_blank"
           rel="noopener"
@@ -18,7 +18,7 @@
       </li>
       <li class="mr-6">
         <a
-          class="text-black"
+          class="text-red-dark"
           href="https://github.com/core01/"
           target="_blank"
           rel="noopener"
@@ -27,7 +27,11 @@
         </a>
       </li>
       <li class="mr-6">
-        <a href="mailto:ra@sadoyan.ru" class="text-black" target="_blank">
+        <a
+          href="mailto:ra@sadoyan.ru"
+          class="text-red-dark"
+          target="_blank"
+        >
           <i class="far fa-envelope" />
         </a>
       </li>

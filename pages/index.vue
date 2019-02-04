@@ -4,7 +4,13 @@
       <h3>About me</h3>
       <div class="ml-5">
         <p>
-          Graduated from <a class="border-b border-black" href="http://en.ifmo.ru/en/">
+          Graduated from
+          <a
+            href="http://en.ifmo.ru/en/"
+            class="no-underline"
+            target="_blank"
+            rel="noopener"
+          >
             ITMO University
           </a> as master of Computer Science
         </p>
