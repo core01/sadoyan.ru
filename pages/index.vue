@@ -1,44 +1,26 @@
 <template>
   <main class="leading-loose p-4">
-    <div class="mb-6">
-      <h3>About me</h3>
-      <p>Full-stack web-developer</p>
-      <p>
-        Graduated from ITMO University as master of Computer Science
-      </p>
-    </div>
     <div class="mb-4">
-      <h4>
-        Frontend
-      </h4>
-      <ul class="list-reset ml-5">
-        <li>JavaScript (ES5, ES6+)</li>
-        <li>
-          Vue (Vue Router / Vuex ), NuxtJS
-        </li>
-        <li>
-          HTML5/CSS3
-        </li>
-        <li>
-          SASS, Stylus, PostCSS
-        </li>
-      </ul>
+      <h3>About me</h3>
+      <div class="ml-5">
+        <p>
+          Graduated from <a class="border-b border-black" href="http://en.ifmo.ru/en/">
+            ITMO University
+          </a> as master of Computer Science
+        </p>
+        <p><b>4+ years</b> of PHP & JS development</p>
+        <p><b>1+ years</b> of full-stack JS development with Nuxt.js (Vue + Express)</p>
+      </div>
     </div>
     <div>
       <h4>
-        Backend
+        Skills
       </h4>
       <ul class="list-reset ml-5">
-        <li>PHP 7+, Node.js 10+</li>
-        <li>
-          Laravel, Yii2, Express
-        </li>
-        <li>
-          Docker, Sphinx / Elasticsearch
-        </li>
-        <li>
-          CentOS / Ubuntu
-        </li>
+        <li>HTML, CSS, JS, PHP</li>
+        <li>Vue.js, Vuex, Nuxt.js</li>
+        <li>Laravel, Yii2, Express.js</li>
+        <li>Git, Webpack, Docker</li>
       </ul>
     </div>
   </main>

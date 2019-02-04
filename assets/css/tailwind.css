@@ -60,3 +60,8 @@
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
+
+a {
+  color: config('colors.black');
+  text-decoration: none;
+}
