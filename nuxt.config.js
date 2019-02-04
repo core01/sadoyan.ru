@@ -15,14 +15,47 @@ module.exports = {
         hid: 'description',
         name: 'description',
         content: 'Roman Sadoyan - Web-developer from Saint-Petersburg'
+      },
+      {
+        property: 'og:url',
+        content: 'https://sadoyan.ru'
+      },
+      {
+        property: 'og:title',
+        content: 'Roman Sadoyan'
+      },
+      {
+        property: 'og:description',
+        content: 'Roman Sadoyan - Web-developer from Saint-Petersburg'
+      },
+      {
+        property: 'og:image',
+        content: 'https://avatars0.githubusercontent.com/u/2903772'
+      },
+      {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: '/apple-touch-icon.png'
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: '/favicon-32x32.png'
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: '/favicon-16x16.png'
       }
     ],
     link: [
       {
         rel: 'stylesheet',
-        href: 'https://use.fontawesome.com/releases/v5.6.3/css/all.css',
+        href: 'https://use.fontawesome.com/releases/v5.7.1/css/all.css',
         integrity:
-          'sha384-UHRtZLI,+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/',
+          'sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr',
         crossorigin: 'anonymous'
       }
     ]
