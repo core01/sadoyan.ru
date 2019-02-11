@@ -23,8 +23,10 @@
         Skills
       </h4>
       <ul class="list-reset ml-5">
-        <li>HTML, CSS, JS, PHP</li>
+        <li>HTML, CSS</li>
+        <li>JavaScript, TypeScript</li>
         <li>Vue.js, Vuex, Nuxt.js</li>
+        <li>PHP, Node.js</li>
         <li>Laravel, Yii2, Express.js</li>
         <li>Git, Webpack, Docker</li>
       </ul>
