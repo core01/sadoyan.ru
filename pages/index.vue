@@ -15,13 +15,13 @@
           </a> as master of Computer Science
         </p>
         <p><b>4+ years</b> of PHP & JS development</p>
-        <p><b>1+ years</b> of full-stack JS development with Nuxt.js (Vue + Express)</p>
+        <p><b>1+ years</b> of full-stack JS development with Nuxt.js (Vue & Express)</p>
       </div>
     </div>
     <div>
-      <h4>
+      <h3>
         Skills
-      </h4>
+      </h3>
       <ul class="list-reset ml-5">
         <li>HTML, CSS</li>
         <li>JavaScript, TypeScript</li>

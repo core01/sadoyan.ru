@@ -1,5 +1,5 @@
 <template>
-  <footer class="p-4 text-center">
+  <footer class="flex flex-grow justify-center items-end p-4 text-center">
     <p class="">
       made with <a
         class="no-underline"

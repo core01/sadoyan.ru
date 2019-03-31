@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-between max-w-lg min-h-screen mx-auto text-black">
+  <div class="flex flex-col max-w-lg min-h-screen mx-auto text-black">
     <Header />
     <nuxt />
     <Footer />
